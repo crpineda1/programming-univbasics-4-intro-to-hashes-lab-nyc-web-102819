@@ -15,7 +15,7 @@ end
 
 def id_generator
   # return a hash with a key :id assigned to positive integer
-  idGen = {:id => rand}
+  idGen = {:id => Random.new_seed}
 end
 
 def my_hash_creator(key, value)
